@@ -7,10 +7,14 @@ Generate random greeting messages.
 ### front-end repo [repo](https://github.com/ibrahim777764/hello-react-front-end/pull/1)
 
 # Made With 🔖
- - Ruby on Rails
- - React
-- Linter: Rubocop
-- Code Editor: VS Code
+ 
+- ![](https://img.shields.io/badge/Github-blueviolet)
+- ![](https://img.shields.io/badge/Ruby-red)
+- ![](https://img.shields.io/badge/Ruby*on*Rails-red)
+- ![](https://img.shields.io/badge/PostgreSql-blue)
+- ![](https://img.shields.io/badge/React-blue)
+- ![](https://img.shields.io/badge/Redux-violet)
+- ![](https://img.shields.io/badge/Babel-yellow)
 ## Getting Started
 To get a local copy up and running follow these simple steps.
 - $ git clone yourrepo.git
@@ -19,28 +23,24 @@ To get a local copy up and running follow these simple steps.
 - $ rails db:setup
 - $ rails s
 
-# Prerequisites
- A web browser like Google Chrome.
- A code editor like Visual Studio Code with Git and Ruby.
-You can check if Git is installed by running the following command in the terminal.
+### Install & Setup
 
-## $ git --version
-Likewise for Ruby installation.
+To setup and install this sample AlFa Blog project, follow the below steps:
+- Clone this project by the command: 
+  ```
+  git clone git@github.com:ibrahim777764/hello-rails-back-end.git
+  ```
 
-## $ ruby --version && irb
-To install rails, in the terminal kindly run this command
+- Then switch to the project folder by the bellow query:
 
-## $ gem install rails
- Setup
-Clone the repository using the GitHub link provided below.
+  ```
+  cd hello-rails-back-end
+  ```
 
-## Install
-In the terminal, go to your file directory and run this command.
-
-Usage
-Kindly modify the files as needed.
-
-## bundle install
+- Install the required dependecies with:
+  ```
+  bundle install
+  ```
 
 ## Setup database
 - rails db:create
